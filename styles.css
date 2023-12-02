@@ -1,0 +1,1016 @@
+.top {
+  background-image: linear-gradient(to bottom, #fdf2ec, white);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  height: 70px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.logo {
+  margin: 20px;
+}
+
+.burgerMenu {
+  display: none;
+}
+
+.mobile-nav {
+  padding-top: 2.2rem;
+  padding-bottom: 2rem;
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  z-index: 999;
+  position: relative;
+  text-align: center;
+}
+.mobile-nav ul {
+  list-style: none;
+  font-size: 14px;
+}
+.mobile-nav li {
+  margin-top: 2rem;
+}
+.mobile-nav a {
+  text-decoration: none;
+  color: black;
+}
+.mobilebuytemplate {
+  font-size: large;
+  font-weight: 600;
+  margin-left: 10%;
+  margin-top: 2rem;
+  width: 80vw;
+  height: 3rem;
+  background-color: #8247ff;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.desktop-nav {
+  float: right;
+}
+
+.desktop-nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.desktop-nav li {
+  margin: 0.6rem 2rem;
+  font-size: 17px;
+}
+
+.desktop-nav a {
+  text-decoration: none;
+  color: black;
+}
+.desktop-nav a:hover {
+  color: blueviolet;
+}
+
+#buytemplate {
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 0.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  font-weight: 600;
+}
+#buytemplate:hover {
+  border: 1px solid black;
+}
+#buytemplate a:hover {
+  color: black;
+}
+
+.top-content {
+  text-align: center;
+  margin: 5rem;
+  margin-top: 7rem;
+}
+.top-content p {
+  margin: 0;
+  margin-bottom: 2rem;
+}
+.top-content h1 {
+  margin: 0;
+  padding: 0 2rem;
+  font-size: 70px;
+}
+.top-content h4 {
+  margin: 1rem;
+  font-size: 1.3rem;
+  color: grey;
+}
+.top-content button {
+  font-size: large;
+  height: 60px;
+  width: 240px;
+  margin: 1rem;
+  border: none;
+  border-radius: 1.5rem;
+}
+#getStarted {
+  background-color: #8247ff;
+  color: white;
+  cursor: pointer;
+}
+#getStarted:hover {
+  box-shadow: 0 0 10px #8247ff;
+}
+
+#watchDemo {
+  background-color: white;
+  border: 1px solid lightgrey;
+  cursor: pointer;
+}
+#watchDemo:hover {
+  border: 1px solid black;
+}
+
+.top-image {
+  padding: 0 5rem 5rem 5rem;
+  text-align: center;
+}
+
+#top-image {
+  width: 90vw;
+  height: auto;
+}
+
+.secondSection {
+  text-align: center;
+}
+
+.secondSection h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.secondSection h4 {
+  margin-top: 8px;
+  margin-left: 0;
+  font-size: 1.2rem;
+  color: grey;
+}
+
+.secondSection .secondRow {
+  display: flex;
+  margin: 0 3rem;
+}
+
+.boostPro {
+  text-align: left;
+  margin: 3rem;
+  padding: 0 4rem;
+  padding-top: 5rem;
+  width: 500px;
+  height: 400px;
+  background-color: #ededfa;
+  font-size: 32px;
+  border-radius: 2rem;
+  font-weight: bold;
+}
+
+.smartManage {
+  border: 1px solid grey;
+  text-align: left;
+  margin: 3rem;
+  width: 585px;
+  height: 485px;
+  border-radius: 2rem;
+}
+
+.smartManage img {
+  max-width: 600px;
+}
+
+.secondSection .thirdRow {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 5rem;
+  margin-bottom: 200px;
+}
+
+.secondSection .thirdRow img {
+  height: 300px;
+}
+
+.ssheading {
+  text-align: left;
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.sssubtitle {
+  text-align: left;
+  color: grey;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.secondSection .thirdRow div {
+  border: 1px solid lightgrey;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 350px;
+}
+
+.pricingSection {
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.pricingSection h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricingSection h4 {
+  margin-left: 0;
+  font-size: 1.2rem;
+  color: grey;
+  margin-top: 10px;
+}
+
+.pricingSection .pricingPlans {
+  display: flex;
+  justify-content: center;
+}
+
+.pricingPlans .plan {
+  padding: 1rem;
+  color: grey;
+  text-align: left;
+  margin: 1rem;
+  margin-top: 1rem;
+  width: 340px;
+  height: 450px;
+  background-color: #ededfa;
+  border-radius: 2rem;
+  position: relative;
+}
+
+.pricingPlans .plan2 {
+  margin-top: 0;
+  height: 480px;
+  background-color: black;
+  color: grey;
+}
+
+.plan button {
+  position: absolute;
+  bottom: 2rem;
+  height: 3rem;
+  width: 8rem;
+  background-color: white;
+  border: none;
+  border-radius: 1rem;
+  font-size: large;
+  font-weight: bold;
+}
+.plan button:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.plan2 button {
+  background-color: #8247ff;
+  color: white;
+}
+.plan2 button:hover {
+  box-shadow: 0 0 5px #ededfa;
+}
+
+.testimonials p,
+h4 {
+  margin-left: 200px;
+}
+
+.testimonials h1 {
+  font-size: 3rem;
+  margin: 0;
+  margin-left: 200px;
+}
+
+.testimonials h4 {
+  font-size: 1.2rem;
+  color: grey;
+  margin-top: 10px;
+}
+
+.review {
+  width: 300px;
+  margin: 30px;
+  padding: 50px;
+  font-size: 1.2rem;
+  border: 1px solid lightgrey;
+  border-radius: 2rem;
+}
+
+.review img {
+  margin-top: 40px;
+}
+
+.review .name,
+.work {
+  margin-left: 70px;
+}
+
+.review .name {
+  margin-top: 40px;
+}
+.review .work {
+  font-size: medium;
+  margin-top: 2px;
+  color: grey;
+}
+
+.marquee {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee .review {
+  white-space: wrap;
+  display: inline-block;
+  animation: marquee 30s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(40vw);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.endingSection .firstRow {
+  display: flex;
+  border: 1px solid lightgrey;
+  background-color: white;
+  border-radius: 2rem;
+  margin: 200px;
+  padding: 80px;
+}
+
+.endingSection .firstRow h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.endingSection .firstRow h4 {
+  font-size: 1.2rem;
+  color: grey;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.endingSection .firstRow .flexDiv {
+  width: 500px;
+}
+
+.endingSection .firstRow button {
+  background-color: #8247ff;
+  border: none;
+  height: 3.5rem;
+  width: 11rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.endingSection .firstRow button:hover {
+  box-shadow: 0 0 20px #8247ff;
+  cursor: pointer;
+}
+
+.endingSection .secondRow {
+  margin: 200px;
+  margin-top: 0;
+  position: relative;
+}
+.endingSection .secondRow .bottom-nav {
+  position: absolute;
+  right: 3rem;
+  top: 0;
+}
+.endingSection ul {
+  list-style-type: none;
+}
+.endingSection li {
+  margin-bottom: 1rem;
+}
+.endingSection ul a {
+  text-decoration: none;
+  color: black;
+}
+.endingSection ul a:hover {
+  color: grey;
+}
+
+.endingSection .thirdRow {
+  border-top: 1px solid lightgrey;
+  padding: 40px 0;
+  margin: 0 200px;
+}
+
+.endingSection {
+  background-image: linear-gradient(to bottom, white, #fdf2ec);
+}
+
+.faqSection h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.faqSection h4 {
+  font-size: 1.2rem;
+  color: grey;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.question {
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: #f3f3ff;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+.answer {
+  font-weight: 400;
+  font-size: 18px;
+  color: grey;
+  margin-top: 1rem;
+}
+
+.faqSection {
+  display: flex;
+  margin: 200px;
+}
+
+.faqSection .leftColumn {
+  min-width: 350px;
+  margin-right: 5rem;
+}
+
+.hide {
+  display: none;
+}
+
+.moreSection {
+  padding-top: 1rem;
+  background-color: #1c1c1c;
+}
+
+.moreSection .firstRow {
+  margin: 150px;
+  margin-bottom: 100px;
+}
+
+.moreSection .firstRow h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.moreSection .firstRow h4 {
+  font-size: 1.2rem;
+  color: grey;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.moreSection .secondRow {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 150px;
+  margin-top: 0;
+}
+
+.moreSection .secondRow .block {
+  width: 320px;
+  padding: 30px 20px;
+  background-color: #212121;
+  border-radius: 2rem;
+}
+
+.moreSection .secondRow .block h2 {
+  color: white;
+}
+.moreSection .secondRow .block h5 {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: grey;
+}
+
+.integrationSection {
+  text-align: center;
+}
+
+.integrationSection h1 {
+  font-size: 3rem;
+  color: white;
+  margin: 0;
+}
+
+.integrationSection h3 {
+  font-size: 1.2rem;
+  color: grey;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+.purple {
+  color: #8247ff;
+}
+
+@media screen and (max-width: 1200px) {
+  .burgerMenu,
+  .closeBurgerMenu {
+    display: block;
+  }
+  .desktop-nav {
+    display: none;
+  }
+  .top-content {
+    text-align: center;
+    margin: 1rem;
+    margin-top: 7rem;
+  }
+  .top-content p {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  .top-content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+  }
+  .top-content h4 {
+    margin: 1rem;
+    font-size: 1.3rem;
+    color: grey;
+  }
+  .top-content button {
+    font-size: large;
+    height: 60px;
+    width: 80vw;
+    margin: 1rem;
+    border: none;
+    border-radius: 1.5rem;
+  }
+  #getStarted {
+    background-color: #8247ff;
+    color: white;
+    cursor: pointer;
+  }
+
+  #watchDemo {
+    background-color: white;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+  }
+
+  .top-image {
+    padding: 0;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  #top-image {
+    height: auto;
+    width: 90vw;
+  }
+
+  .secondSection h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+  .secondSection h4 {
+    margin-top: 10px;
+    font-weight: 400;
+    margin-left: 8px;
+    font-size: 1rem;
+    color: grey;
+  }
+
+  .secondSection .secondRow {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .boostPro {
+    text-align: left;
+    margin: 0.5rem;
+    padding: 0 3rem;
+    padding-top: 3rem;
+    width: 75vw;
+    height: 350px;
+    background-color: #ededfa;
+    font-size: 30px;
+    border-radius: 2rem;
+  }
+
+  .smartManage {
+    border: 1px solid grey;
+    text-align: left;
+    margin: 3rem 1.5rem;
+    width: 89vw;
+    height: 485px;
+    border-radius: 2rem;
+  }
+  .smartManage img {
+    width: 85vw;
+    height: auto;
+  }
+
+  .secondSection .thirdRow {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem;
+    margin-bottom: 200px;
+  }
+
+  .secondSection .thirdRow img {
+    height: 300px;
+  }
+
+  .ssheading {
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .sssubtitle {
+    text-align: left;
+    color: grey;
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+
+  .secondSection .thirdRow .div {
+    border: 1px solid lightgrey;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 80vw;
+    margin-bottom: 2rem;
+  }
+
+  .moreSection {
+    padding-top: 3rem;
+    background-color: #1c1c1c;
+  }
+
+  .moreSection .firstRow {
+    margin-bottom: 100px;
+    margin: 0;
+    padding: 2rem;
+  }
+
+  .moreSection .firstRow h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .moreSection .firstRow h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: grey;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .moreSection .secondRow {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    margin-top: 0;
+  }
+
+  .moreSection .secondRow .block {
+    width: 75vw;
+    padding: 30px 40px;
+    background-color: #212121;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .moreSection .secondRow .block h2 {
+    color: white;
+  }
+  .moreSection .secondRow .block h5 {
+    font-size: 1.1rem;
+    font-weight: lighter;
+    color: grey;
+  }
+
+  .integrationSection {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .integrationSection h1 {
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+  }
+
+  .integrationSection h3 {
+    font-size: 1.2rem;
+    color: grey;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 80px;
+  }
+
+  .integrationSection img {
+    width: 80vw;
+    height: auto;
+  }
+  .faqSection p {
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .faqSection h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .faqSection h4 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: grey;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .question {
+    margin: 1rem;
+    padding: 1.5rem;
+    background-color: #f3f3ff;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 1.5rem;
+    cursor: pointer;
+  }
+  .answer {
+    font-weight: 400;
+    font-size: 18px;
+    color: grey;
+    margin-top: 1rem;
+  }
+
+  .faqSection {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 7rem;
+  }
+
+  .faqSection .leftColumn {
+    min-width: 350px;
+    margin-right: 0;
+  }
+
+  .pricingSection {
+    text-align: center;
+    margin-bottom: 200px;
+  }
+
+  .pricingSection h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .pricingSection h4 {
+    margin-left: 0;
+    font-size: 1.1rem;
+    font-weight: 530;
+    color: grey;
+    margin-top: 10px;
+  }
+
+  .pricingSection .pricingPlans {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pricingPlans .plan {
+    padding: 1rem;
+    padding-left: 2.3rem;
+    color: grey;
+    text-align: left;
+    margin: 1rem 6%;
+    margin-top: 1rem;
+    width: 380px;
+    height: 450px;
+    background-color: #ededfa;
+    border-radius: 2rem;
+    position: relative;
+  }
+
+  .pricingPlans .plan2 {
+    margin-top: 0;
+    height: 480px;
+    background-color: black;
+    color: grey;
+  }
+
+  .plan button {
+    position: absolute;
+    bottom: 2rem;
+    height: 3rem;
+    width: 8rem;
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+    font-size: large;
+    font-weight: bold;
+  }
+  .plan button:hover {
+    border: 1px solid black;
+    cursor: pointer;
+  }
+
+  .plan2 button {
+    background-color: #8247ff;
+    color: white;
+  }
+  .plan2 button:hover {
+    box-shadow: 0 0 5px #ededfa;
+  }
+  .testimonials {
+    margin-bottom: 200px;
+  }
+  .testimonials p,
+  h4 {
+    margin-left: 2rem;
+  }
+
+  .testimonials h1 {
+    font-size: 2rem;
+    margin: 0;
+    margin-left: 2rem;
+  }
+
+  .testimonials h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: grey;
+    margin-top: 10px;
+  }
+
+  .review {
+    width: 250px;
+    margin: 30px;
+    padding: 40px;
+    font-size: 1.2rem;
+    border: 1px solid lightgrey;
+    border-radius: 2rem;
+  }
+
+  .review img {
+    margin-top: 40px;
+  }
+
+  .review .name,
+  .work {
+    margin-left: 70px;
+  }
+
+  .review .name {
+    margin-top: 40px;
+  }
+  .review .work {
+    font-size: medium;
+    margin-top: 2px;
+    color: grey;
+  }
+
+  .marquee {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .marquee .review {
+    white-space: wrap;
+    display: inline-block;
+    animation: marquee 30s linear infinite;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(10vw);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .endingSection .firstRow {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid lightgrey;
+    background-color: white;
+    border-radius: 2rem;
+    margin: 10px;
+  }
+
+  .endingSection .firstRow p {
+    margin-top: 4rem;
+  }
+  .endingSection .firstRow h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .endingSection .firstRow h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: grey;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .endingSection .firstRow .flexDiv {
+    width: 90vw;
+  }
+
+  .endingSection .firstRow button {
+    background-color: #8247ff;
+    border: none;
+    height: 3.5rem;
+    width: 11rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .endingSection .firstRow img {
+    margin-left: 20px;
+    width: 420px;
+  }
+
+  .endingSection .secondRow {
+    margin: 0;
+    margin-top: 100px;
+    margin-bottom: 300px;
+  }
+
+  .endingSection .secondRow img {
+    margin: 2rem;
+  }
+
+  .endingSection ul {
+    list-style-type: none;
+  }
+  .endingSection li {
+    margin-bottom: 1rem;
+  }
+  .endingSection ul a {
+    text-decoration: none;
+    color: black;
+  }
+  .endingSection ul a:hover {
+    color: grey;
+  }
+
+  .endingSection .thirdRow {
+    text-align: center;
+    border-top: 1px solid lightgrey;
+    padding: 40px 0;
+    margin: 0;
+  }
+}
